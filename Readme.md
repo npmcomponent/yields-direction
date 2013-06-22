@@ -7,9 +7,21 @@
 
     $ component install yields/direction
 
-## API
+## Example
 
-   
+```html
+<input type='text' name='foo'>
+<textarea></textarea>
+
+<script>
+  var input = document.querySelector('input')
+    , txt = document.querySelector('textarea')
+    , direction = require('direction');
+
+  direction(input);
+  direction(txt);
+</script>
+```
 
 ## License
 
