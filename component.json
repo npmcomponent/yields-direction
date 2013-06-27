@@ -6,7 +6,8 @@
   "keywords": ["direction"],
   "dependencies": {
     "component/directionality": "*",
-    "component/events": "*"
+    "component/events": "*",
+    "component/trim": "*"
   },
   "development": {},
   "license": "MIT",

@@ -4,7 +4,8 @@
  */
 
 var direction = require('directionality')
-  , events = require('events');
+  , events = require('events')
+  , trim = require('trim');
 
 /**
  * Export `Direction`
@@ -55,7 +56,8 @@ Direction.prototype.unbind = function(){
 
 Direction.prototype.onkeyup = function(e){
   if (1 <= this.el.value.length) {
-    this.el.style.direction = direction(this.el.value);
+    var val = trim.left(this.el.value);
+    this.el.style.direction = direction(val);
   } else if (0 == this.el.value.length) {
     this.el.style.direction = null;
   }
