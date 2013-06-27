@@ -2,7 +2,7 @@
   "name": "direction",
   "repo": "yields/direction",
   "description": "automatically adjust input direction based on user language.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": ["direction"],
   "dependencies": {
     "component/directionality": "*",
