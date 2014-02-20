@@ -1,0 +1,15 @@
+{
+  "name": "yields-direction",
+  "description": "automatically adjust input direction based on user language.",
+  "version": "1.0.0",
+  "keywords": [
+    "direction"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "component-directionality": "git://github.com/npmcomponent/component-directionality.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "component-trim": "git://github.com/npmcomponent/component-trim.git"
+  },
+  "license": "MIT"
+}

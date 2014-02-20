@@ -3,9 +3,9 @@
  * dependencies
  */
 
-var direction = require('directionality')
-  , events = require('events')
-  , trim = require('trim');
+var direction = require('component-directionality')
+  , events = require('component-events')
+  , trim = require('component-trim');
 
 /**
  * Export `Direction`
